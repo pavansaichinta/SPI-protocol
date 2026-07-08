@@ -1,0 +1,53 @@
+Time=0 ns | State=00 | CS_N=1 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+[TB] Reset Lifted. Operational Ready Signal: 1
+
+--- Starting Test Case 1: Transmitting 0x5A ---
+Time=90000 ns | State=01 | CS_N=1 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=110000 ns | State=01 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=130000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=170000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=0
+Time=210000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=250000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=1
+Time=290000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=330000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=0
+Time=370000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=410000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=1
+Time=450000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=490000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=1
+Time=530000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=570000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=0
+Time=610000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=650000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=1
+Time=690000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=730000 ns | State=11 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=770000 ns | State=00 | CS_N=1 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+[SUCCESS] Test Case 1 Passed! Received: 0x5a
+
+--- Starting Test Case 2: Transmitting 0xF0 ---
+Time=830000 ns | State=01 | CS_N=1 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=850000 ns | State=01 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=0
+Time=870000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=0
+Time=890000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=1
+Time=950000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=990000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=1
+Time=1030000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=1070000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=1 | MISO_SYNC=1
+Time=1110000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=1 | MISO_SYNC=1
+Time=1150000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=1
+Time=1190000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=1230000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=1270000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=1310000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=1350000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=1390000 ns | State=10 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=1430000 ns | State=10 | CS_N=0 | SCLK=1 | MOSI=0 | MISO_SYNC=0
+Time=1470000 ns | State=11 | CS_N=0 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+Time=1510000 ns | State=00 | CS_N=1 | SCLK=0 | MOSI=0 | MISO_SYNC=0
+[SUCCESS] Test Case 2 Passed! Received: 0xf0
+
+[TB] Verification Completed.
+testbench.sv:117: $finish called at 1570000 (1ps)
+Finding VCD file...
+./spi_master_simulation.vcd
+[2026-07-08 19:00:43 UTC] Opening EPWave...
+Done
